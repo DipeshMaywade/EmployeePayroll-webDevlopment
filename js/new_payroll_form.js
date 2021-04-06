@@ -52,7 +52,8 @@ const createEmployeePayroll = () => {
         setTextValue('.text-error', e);
         throw e ;
     }
-
+    let list =  JSON.parse(localStorage.getItem('EmployeePayrollList'));
+    employeePayrollData.id = list.length+1;
     employeePayrollData.image = getSelectedValues('[name=profile]').pop();
     employeePayrollData.gender = getSelectedValues('[name=gender]').pop();
     employeePayrollData.department = getSelectedValues('[name=department]');
