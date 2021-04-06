@@ -155,5 +155,3 @@ const setSelectedValues = (propertyValue, value) => {
         item.checked = true;
     })
 }
-
-
