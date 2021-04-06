@@ -45,7 +45,7 @@ function createAndUpdateStorage(employeePayrollData){
     }else{
         employeePayrollList = [employeePayrollData]
     }
-    alert(employeePayrollList.toString());
+    alert("Your Data Is Submited..");
     localStorage.setItem("EmployeePayrollList", JSON.stringify(employeePayrollList))
 }
 
