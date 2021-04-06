@@ -36,7 +36,7 @@ const createInnerHtml = () => {
         </tr>
         `;
     }
-document.querySelector('#table-display').innerHTML = innerHtml;
+    document.querySelector('#table-display').innerHTML = innerHtml;
 }
 
 const remove = (node) =>{
@@ -44,7 +44,7 @@ const remove = (node) =>{
     if (!empPayrollData) return;
     const index = empPayrollList
                   .map(empData => empData._id)
-                  .indexOf(empPayrollData._id);
+                  .indexOf(empPayrollDat._id);
     empPayrollList.splice(index,1);
     localStorage.setItem("EmployeePayrollList", JSON.stringify(empPayrollList));
     document.querySelector(".emp-count").textContent= empPayrollList.length;
