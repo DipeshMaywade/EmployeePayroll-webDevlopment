@@ -1,0 +1,36 @@
+{
+  "EmployeePayrollList": [
+    {
+      "id": "1",
+      "_name": "Deep",
+      "_image": "..\\assest\\profile-images\\Ellipse -3.png",
+      "_gender": "male",
+      "_department": [
+        "Hr",
+        "Finance"
+      ],
+      "_salary": "40000",
+      "_note": "test",
+      "_startDate": "1-06-2020"
+    },
+    {
+      "_name": "Rohitji",
+      "id": 5,
+      "_image": "..\\assest\\profile-images\\Ellipse -3.png",
+      "_gender": "male",
+      "_department": [
+        "Hr",
+        "Sales",
+        "Finance"
+      ],
+      "_salary": "50000",
+      "_note": "123342",
+      "_startDate": "16-08-2020"
+    },
+    {
+      "name": "Jay",
+      "Salary": "234234",
+      "id": 6
+    }
+  ]
+}
